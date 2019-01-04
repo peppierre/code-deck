@@ -1,0 +1,9 @@
+$heart-color: hsl(0, 100%, 38%);
+.queen {
+    .hearts & {
+        color: $heart-color;
+    }
+    &:after {
+        content: "Q";
+    }
+}

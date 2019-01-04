@@ -1,0 +1,10 @@
+$heart-color: #c00000;
+.hearts {
+    .ace {
+        color: $heart-color;
+        font-size: 2rem;
+        &:after {
+            content: 'A';
+        }
+    }
+}

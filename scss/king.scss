@@ -1,0 +1,10 @@
+$heart-color: hsla(0, 100%, 38%, 1);
+$king-sign: "\212a";
+.king {
+    .hearts & {
+        color: $heart-color;
+        &:before {
+            content: $king-sign;
+        }
+    }
+}

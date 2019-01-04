@@ -1,0 +1,8 @@
+$heart-color: rgba(192, 0, 0, 1);
+.hearts .jack {
+    color: $heart-color;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('jack.png');
+}
